@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-oauth
-          image: akhilmovva/flask-argo-jenk-image:'dev'
+          image: akhilmovva/flask-argo-jenk-image:dev
           ports:
           - containerPort: 5000
           volumeMounts: 
